@@ -1,0 +1,39 @@
+{
+    "editor.guides.bracketPairs": "active",
+    "editor.language.colorizedBracketPairs": [
+        ["{", "}"], // Block-Scoped Braces/Function-Braces
+        ["[", "]"], // Array Square-brackets
+        ["(", ")"], // Func Call-args/Declaration-params Brackets
+        ["<", ">"], // HTML/XML Tags
+        ["\"","\""], // String Quotations
+        ["_", "_"], // Markdown: Italicized
+        ["**", "**"], // Markdown: Bold
+        ["**_", "_**"], // Markdown: Italicized & Bold
+        ["{{", "}}"], // Double Curly Brackets
+        ["`", "`"], // Back-tics
+        ["#ifndef", "#endif"], // Highlight C Directives as pairs
+        ["<%", "%>"], // Wrapping variables in JSON
+        ["${", "}"], // Wrapping template variables in JS/TS
+        ["$(", ")"] // Wrapping of template variables in BASH
+        
+    ],
+    "editor.tabSize": 4, //vscode设置的缩进量
+    
+    // "python.pythonPath":"D:\\installs\\Python\\venv3.7\\Scripts\\python.exe",
+    // "code-runner.executorMap": {
+    //     "python": "D:\\installs\\Python\\venv3.7\\Scripts\\python.exe",
+    // },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+    },
+    
+    
+}
