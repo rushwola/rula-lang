@@ -34,6 +34,7 @@
             "other": "on"
         },
     },
-    
+    "editor.fontSize": 22,
+    "terminal.integrated.fontSize": 21,
     
 }
