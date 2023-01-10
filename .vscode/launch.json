@@ -10,7 +10,7 @@
             "type": "node",
             "request": "launch",
             "args": [
-              "${relativeFile}","ddd"
+              "${relativeFile}","04/example.ts"
             ],
             "runtimeArgs": [
               "--nolazy",

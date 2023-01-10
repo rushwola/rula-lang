@@ -212,7 +212,7 @@ if (process.argv.length < 3) {
 }
 
 // 读取源代码
-let fs = require('fs');
+let fs = require('fs');//文件读取工具
 let filename = process.argv[2];
 fs.readFile(filename, 'utf8', 
     function(err:any, data:string) {
