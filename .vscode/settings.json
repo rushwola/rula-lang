@@ -36,6 +36,10 @@
     },
     "editor.fontSize": 22,
     "terminal.integrated.fontSize": 21,
+    "workbench.editorAssociations": {
+        "*.hex": "hexEditor.hexedit",
+        "*.bc": "hexEditor.hexedit"
+    },
     // "code-runner.executorMapByGlob": {
     //     "*.ts": "ts-node"
     // },

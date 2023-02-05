@@ -115,10 +115,10 @@ export class Scanner{
         }
         else{
             let ch:string = this.stream.peek();
-            if (this.isLetter(ch) || ch == '_'){
+            if (this.isLetter(ch) || ch == '_'){//标识符
                 return this.parseIdentifer();
             }
-            else if (ch == '"'){
+            else if (ch == '"'){//字符串字面量
                 return this.parseStringLiteral();
             }
             else if (ch == '(' || ch == ')' || ch == '{' || ch == '}' || ch == '[' || ch == ']' || 

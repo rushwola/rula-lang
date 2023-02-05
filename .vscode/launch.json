@@ -10,7 +10,7 @@
             "type": "node",
             "request": "launch",
             "args": [
-              "${relativeFile}","04/example.ts"
+              "${relativeFile}","10-11/example.ts","--dumpBC","-v"
             ],
             "runtimeArgs": [
               "--nolazy",
@@ -23,5 +23,18 @@
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
         },
+        {
+          "name": "debugvm",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${workspaceFolder}/bin/playvm",
+          "args": ["10-11/example.bc"],
+          "stopAtEntry": false,
+          "cwd": "${workspaceFolder}",
+          "environment": [],
+          "externalConsole": false,
+          "MIMode": "gdb",
+          "preLaunchTask": "buildvm"
+      },
     ]
 }

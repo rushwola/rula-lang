@@ -22,3 +22,10 @@ http://www.taodudu.cc/news/show-3474439.html
 通常，编译器的第一项工作叫做词法分析。就像阅读文章一样，文章是由一个个的中文单词组成的。程序处理也一样，只不过这里不叫单词，而是叫做“词法记号”，英文叫 Token。我嫌“词法记号”这个词太长，后面直接将它称作 Token 吧。
 
 ## 上下文无关方法
+
+
+## gcc 安装
+
+https://www.mingw-w64.org/
+
+https://blog.csdn.net/weixin_61370021/article/details/123480478
